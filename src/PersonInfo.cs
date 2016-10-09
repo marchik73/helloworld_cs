@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 public class Foo
 {
   public int MagicNumber = 42;
+  private int IllegalOp := 32.
 }
 
 namespace HELLO
