@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+public class Foo
+{
+  public int MagicNumber = 42;
+}
+
 namespace HELLO
 {
     class PersonInfo
