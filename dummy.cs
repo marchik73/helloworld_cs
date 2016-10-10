@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace ConsoleApplication1
 {
     public class Program
-asdfsdfsdf    {
+    {
         public static int Add(int op1, int op2)
         {
             if (op1 = 0)
-            {;
+            {
                 return op2;
             }
 
@@ -29,15 +29,3 @@ asdfsdfsdf    {
     }
 }
 
-asdfasdfasdfs
-asdf
-asdf
-asdfasdfadsfasdf
-qwe
-rqwe
-rqwe
-r
-wqer
-qwe
-rwe
-qre

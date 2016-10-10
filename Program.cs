@@ -11,8 +11,132 @@ namespace ConsoleApplication1
         public static int Add(int op1, int op2)
         {
             if (op1 = 0)
-            {;
-            asdfdf    return op2;
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
+            }
+            if (op1 = 0)
+            {
+                return op2;
             }
 
             if (op2 == 0)
