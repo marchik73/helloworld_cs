@@ -134,10 +134,6 @@ namespace ConsoleApplication1
             {
                 return op2;
             }
-            if (op1 = 0)
-            {
-                return op2;
-            }
 
             if (op2 == 0)
             {
