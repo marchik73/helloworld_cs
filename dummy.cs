@@ -1,8 +1,13 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+public class Foo
+{
+  public int MagicNumber = 42;
+}
 
 namespace ConsoleApplication1
 {
@@ -25,6 +30,7 @@ namespace ConsoleApplication1
 
         static void Main(string[] args)
         {
+	
         }
     }
 }
