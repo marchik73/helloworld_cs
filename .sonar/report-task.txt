@@ -1,5 +1,5 @@
 projectKey=ITSonarExamplesQuality
 serverUrl=http://localhost:9000
 dashboardUrl=http://localhost:9000/dashboard/index/ITSonarExamplesQuality
-ceTaskId=AVey-1vw9pi23rdWJmmw
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AVey-1vw9pi23rdWJmmw
+ceTaskId=AVezBcrM9pi23rdWJmmy
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVezBcrM9pi23rdWJmmy

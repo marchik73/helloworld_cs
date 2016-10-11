@@ -234,7 +234,8 @@ int await = 42; // Noncompliant
 
 	public class Square
 	{
-	    private double _side;
+	//    private double _side;  // Compliant
+	    public double _side;  // Non Compliant
 
     // This is a new property
 	    public double Side
