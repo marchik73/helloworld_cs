@@ -1,16 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
-{
-
-public class Foo
-{
-  public int MagicNumber = 42;
-}
+int await = 42; // Noncompliant
 
     public class Program
     {
@@ -238,9 +232,47 @@ public class Foo
         }
 
 
+	public class Square
+	{
+	    private double _side;
+
+    // This is a new property
+	    public double Side
+	    {
+	        get
+	        {
+	            return _side;
+	        }
+	    }
+	    public Square(double s)
+	    {
+	        _side = s;
+	    }
+	}
+
+	class Foo
+	{
+	    static void Main()
+	    {
+	        for (int i = 1; i <= 5; i++)
+	        {
+	            Console.WriteLine(i);
+	            if (condition)
+	            {
+	               i = 20;
+	           }
+	        }
+	    }
+	}
+
         static void Main(string[] args)
         {
-          printf();   
+	    int await = 42; // Noncompliant
+	    int async = 43; // Noncompliant
+
+
+	    var sq = new Square(-25.55);
+	    Console.WriteLine("Square Side: {0}", sq.Side);
+            return 0;
         }
     }
-}

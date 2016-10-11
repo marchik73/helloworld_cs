@@ -35,3 +35,54 @@ namespace ConsoleApplication1
     }
 }
 
+
+private String MyValue { get; set; }
+
+// instead of
+
+private String _myValue;
+
+public void DoSomething()
+{
+   MyValue = "Test";
+
+   // Instead of
+
+   _myValue = "Test";
+}
+
+public class Item
+{
+    private Item _parent;
+    private List<Item> _children;
+
+    public void Add(Item child)
+    {
+        if (child._parent != null)
+        {
+            throw new Exception("Child already has a parent");
+        }
+        _children.Add(child);
+        child._parent=this;
+    }
+}
+
+
+
+public class Class1{
+
+    public string Prop1{
+        get {return m_Prop1;}
+        set {m_Prop1 = value; }
+    }
+    private string m_Prop1; // This is standard private property variable name.
+
+    // How do we cap this variable name? While the compiler can figure out same casing
+    // it makes it hard to read.
+    private Class2 Class2;
+
+    // We camel case the parameter.
+    public Class1(Class2 class2){
+      this.Class2 = class2;
+    }
+}
