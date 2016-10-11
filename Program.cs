@@ -272,6 +272,7 @@ int await = 42; // Noncompliant
 	    int async = 43; // Noncompliant
 
 
+
 	    var sq = new Square(-25.55);
 	    Console.WriteLine("Square Side: {0}", sq.Side);
             return 0;
