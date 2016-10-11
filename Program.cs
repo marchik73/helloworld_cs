@@ -269,6 +269,8 @@ int await = 42; // Noncompliant
         static void Main(string[] args)
         {
 
+
+
 	    int await = 42; // Noncompliant
 	    int async = 43; // Noncompliant
 
